@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    // TSはECMAScript 5に変換
+    "target": "ES5",
+    // TSのモジュールはES Modulesとして出力
+    "module": "ES2015",
+    // jsxオプションにはreactを指定するのがポイントです。
+    // これによって、JSXと呼ばれるReact特有のシンタックス（JavaScriptの中にDOM要素を記述する方法）を解釈できるようになります。
+    "jsx": "react",
+    "moduleResolution": "node",
+    "lib": [
+      "ES2020",
+      "DOM"
+    ]
+  }
+}
