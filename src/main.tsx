@@ -11,6 +11,10 @@ const div = styled.h1`
   font-weight: bold;
 `
 
+// const Pin = css({
+//   color: 'green',
+// });
+
 class App extends React.Component {
   render() {
     return (
@@ -21,5 +25,4 @@ class App extends React.Component {
     );
   }
 }
-
 ReactDOM.render(<App />, document.querySelector('#app'));

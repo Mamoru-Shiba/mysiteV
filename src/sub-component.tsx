@@ -19,14 +19,12 @@ export class SubComponent extends React.Component<IProps, IState> {
 
   handleClick() {
     console.log('クリックされました');
-
     this.setState({
       count: this.state.count + 1,
     });
   }
 
   render() {
-
     return (
       <div>
         <h2>{this.props.name}</h2>
